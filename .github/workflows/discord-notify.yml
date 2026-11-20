@@ -72,11 +72,11 @@ jobs:
             '[{
               "title": $title,
               "description": ("**Chronicles of the Celestial Blade** has been updated!\n\n" + $changelog),
-              "url": "https://danielzaiser91.github.io/anime-adventure/",
+              "url": "https://dernamenlosedaniel.github.io/anime-adventure/",
               "color": 4286489,
               "fields": [
                 { "name": "🗡️ Version", "value": $version, "inline": true },
-                { "name": "🌐 Play Now", "value": "[Open Game](https://danielzaiser91.github.io/anime-adventure/)", "inline": true }
+                { "name": "🌐 Play Now", "value": "[Open Game](https://dernamenlosedaniel.github.io/anime-adventure/)", "inline": true }
               ],
               "footer": { "text": "Chronicles of the Celestial Blade" },
               "timestamp": (now | todate)
@@ -93,7 +93,7 @@ jobs:
             echo "New version $VERSION — posting new message."
             jq -n \
               --arg username "Celestial Blade News" \
-              --arg avatar "https://danielzaiser91.github.io/anime-adventure/assets/logo.svg" \
+              --arg avatar "https://dernamenlosedaniel.github.io/anime-adventure/assets/logo.svg" \
               --argjson embeds "$EMBEDS" \
               '{"username": $username, "avatar_url": $avatar, "embeds": $embeds,
                 "content": "<@&1535341240894365707>",

@@ -15,7 +15,7 @@ import * as http from 'http';
 const REPLICATE_TOKEN = process.env['REPLICATE_API_TOKEN'];
 const OUT_DIR = path.join(process.cwd(), 'generated-assets');
 const DRY_RUN = process.argv.includes('--dry-run');
-const CDN_BASE = 'https://github.com/danielzaiser91/anime-adventure/releases/download/game-assets-v2';
+const CDN_BASE = 'https://github.com/derNamenloseDaniel/anime-adventure/releases/download/game-assets-v2';
 
 if (!REPLICATE_TOKEN && !DRY_RUN) {
   console.error('Error: REPLICATE_API_TOKEN not set. Run with --dry-run to preview without generating.');
