@@ -25,7 +25,7 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: /^https:\/\/github\.com\/danielzaiser91\/anime-adventure\/releases\/download\//,
+            urlPattern: /^https:\/\/github\.com\/derNamenloseDaniel\/anime-adventure\/releases\/download\//,
             handler: 'CacheFirst',
             options: {
               cacheName: 'game-assets',

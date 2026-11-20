@@ -12,7 +12,7 @@ import { execSync } from 'child_process';
 
 const OUT_DIR = path.join(process.cwd(), 'generated-assets');
 const RELEASE_TAG = 'game-assets-v2';
-const REPO = 'danielzaiser91/anime-adventure';
+const REPO = 'derNamenloseDaniel/anime-adventure';
 const CDN_BASE = `https://github.com/${REPO}/releases/download/${RELEASE_TAG}`;
 
 function run(cmd: string): string {

@@ -2,7 +2,7 @@
 
 A browser-based anime RPG with branching narrative, turn-based combat, puzzles, and minigames. Fully playable in English and German. Installable as a PWA.
 
-**[▶ Play now](https://danielzaiser91.github.io/anime-adventure/)**
+**[▶ Play now](https://dernamenlosedaniel.github.io/anime-adventure/)**
 
 ---
 
